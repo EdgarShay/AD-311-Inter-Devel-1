@@ -1,0 +1,9 @@
+In this assignment, I replaced each use of var with either let or const based on how the variable behaves
+in the code. I used const for values that never change, such as age and loopArray,
+because const prevents reassignment and makes the code more predictable.
+
+I used let for variables that are reassigned or updated, such as fullName, MAXIMUM, colors,
+and the loop counter i. Using const in those cases would cause errors
+because const does not allow reassignment. Overall, the choice between let and const
+depends on whether the variable’s value needs to change during the program.
+const is best for fixed values, while let is best for values that change or are block-scoped.
