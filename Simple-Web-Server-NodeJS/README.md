@@ -30,8 +30,9 @@ and an invalid route to confirm the correct responses.
 2. Open the project folder in VS Code.
 3. Run the following command in the terminal:
 4. Open a browser and visit:
+
 - http://localhost:3000/
-- http://localhost:3000/about
+- http://localhost/3000/about
 
 ## Routes
 - `/` – Serves the home HTML page
