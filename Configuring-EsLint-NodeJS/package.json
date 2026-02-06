@@ -1,0 +1,22 @@
+{
+  "name": "configuring-eslint-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.3.0"
+  },
+  "dependencies": {
+    "globals": "^13.19.0",
+    "eslint-config-semistandard": "^17.0.0"
+  }
+}
