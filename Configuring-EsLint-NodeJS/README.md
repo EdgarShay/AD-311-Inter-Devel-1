@@ -5,6 +5,14 @@
 ---
 
 ## Project Setup
+1. Initialized a Node.js project using `npm init -y`.
+2. Installed ESLint as a development dependency.
+3. Created `eslint.config.mjs` and configured rules for:
+   - Semicolons (`semi: ["error", "always"]`)
+   - Double quotes (`quotes: ["error", "double"]`)
+4. Created `index.js` with intentional errors to test ESLint.
+5. Ran `npx eslint index.js` to detect missing semicolons and wrong quotes.
+6. Optionally, ran `npx eslint index.js --fix` to automatically correct the errors.
 
 ### 1. Initialize a New Node.js Project
 - Created a new directory for the project.
@@ -36,3 +44,5 @@ rules: {
     semi: ["error", "always"],
     quotes: ["warn", "single"]
 }
+
+![Eslint Output](image.png)
