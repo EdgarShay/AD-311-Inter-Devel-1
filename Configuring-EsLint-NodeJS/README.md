@@ -45,6 +45,6 @@ rules: {
     quotes: ["warn", "single"]
 }
 
-![Eslint Output](eslint-screenshot.png)
+![EsLint Output](eslint-screenshot.png)
 
 
