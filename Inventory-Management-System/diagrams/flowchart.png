@@ -1,0 +1,20 @@
+START
+  ↓
+Receive Inventory Array
+  ↓
+Count Possible Zero Duplications
+  ↓
+Calculate Last Valid Index
+  ↓
+Traverse Array Backwards
+  ↓
+Is Element Zero?
+   ↙        ↘
+ YES         NO
+  ↓           ↓
+Duplicate     Shift Value
+Zero
+  ↓
+Continue Loop
+  ↓
+END
