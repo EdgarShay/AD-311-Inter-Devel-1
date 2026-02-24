@@ -1,0 +1,25 @@
+Start
+  |
+Generate Ticket
+  |
+Add Ticket to Queue
+  |
+More Customers?
+  | Yes
+  v
+Generate Another Ticket
+  |
+  No
+  |
+Process Queue
+  |
+Serve Ticket
+  |
+Queue Empty?
+  | No
+  v
+Serve Next Ticket
+  |
+  Yes
+  |
+End
