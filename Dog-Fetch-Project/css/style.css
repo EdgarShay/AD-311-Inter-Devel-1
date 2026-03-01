@@ -1,0 +1,74 @@
+/* General page styling */
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: lightblue;
+margin: 0;
+padding: 0;
+}
+
+/* Header */
+header {
+background-color: darkblue;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+/* Main layout */
+main {
+width: 80%;
+margin: auto;
+margin-top: 20px;
+background-color: darkblue;
+}
+
+/* Card sections */
+.card {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+background-color: #3498db;
+color: white;
+border: none;
+padding: 10px 15px;
+border-radius: 5px;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+button:hover {
+background-color: #2980b9;
+}
+
+/* List styling */
+ul {
+list-style-type: none;
+padding: 0;
+}
+
+li {
+padding: 8px;
+border-bottom: 1px solid #eee;
+cursor: pointer;
+}
+
+li:hover {
+background-color: #f0f8ff;
+color: #3498db;
+}
+
+/* Breed details box */
+#breedDetails {
+line-height: 1.6;
+}
+
+.loading {
+color: #555;
+font-style: italic;
+}
