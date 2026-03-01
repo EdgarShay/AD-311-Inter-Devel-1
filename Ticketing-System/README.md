@@ -1,4 +1,5 @@
 # Ticketing System Simulation (Queue Data Structure)
+Written by Edgar
 
 ## Overview
 This project simulates a real-world service center ticketing system using a **Queue (FIFO)** data structure. Customers take a ticket number and are served in the order they arrive.
@@ -10,8 +11,6 @@ This project demonstrates:
 - Algorithm analysis
 - Clear communication of a technical solution
 
----
-
 ## Problem Description
 Many service centers (banks, hospitals, support desks) use ticketing systems to manage customers. Customers take a number and wait until their ticket is called.
 
@@ -20,8 +19,6 @@ This program simulates that process by:
 2. Adding them to a queue
 3. Processing them in order
 4. Simulating arrival and service times
-
----
 
 ## System Flow
 Customer Arrives
@@ -50,17 +47,12 @@ Example output:
 
 Ticket #3 | Time: 14:22:10
 
-
----
-
 ## Why Use a Queue?
 A queue follows **FIFO (First In, First Out)** which ensures customers are served fairly and in the order they arrived.
 
 Queue operations are efficient:
 - Enqueue → O(1)
 - Dequeue → O(1)
-
----
 
 ## Clarifying Questions
 Before implementing the solution, these questions could be asked:
@@ -70,8 +62,6 @@ Before implementing the solution, these questions could be asked:
 - Should ticket numbers reset daily?
 - Should priority tickets exist?
 - Should tickets expire after some time?
-
----
 
 ## Time and Space Complexity
 
@@ -85,7 +75,5 @@ Overall Time Complexity: **O(N)**
 
 ### Space Complexity
 Queue stores N tickets → **O(N)**
-
----
 
 ## Project Structure
