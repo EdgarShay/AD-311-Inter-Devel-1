@@ -1,0 +1,14 @@
+{
+  "name": "financial-growth-analysis",
+  "version": "1.0.0",
+  "description": "Coding interview problem analyzing financial growth trends using sorted squares.",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
